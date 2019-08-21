@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="jumbotron text-center">
+            <h1>Demo Sales</h1>
+            <p>Signup Page</p> 
+          </div>
+            
+          <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="row">
+                            <div class="col-sm-12 mb-2">
+                                <label for="usr">Name:</label>
+                                <input type="text" class="form-control" id="usr">
+                                </div>
+                                <div class="col-sm-12 mb-2">
+                                <label for="eml">Email</label>
+                                <input type="email" class="form-control" id="email">
+                                <span id="errorId" style="color: red;"></span>
+                                </div>
+                                <div class="col-sm-12 mb-2">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                                </div>
+                                <div class="col-sm-12 mb-2">
+                                <label for="pwd">Re-enter Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                                </div>
+                                <div class="col-sm-12 d-flex mb-2" style="align-items: flex-end">
+                                    <div>
+                                <button type="button" class="btn btn-primary btn-md" id="signup" onclick="signup()">Signup</button>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                        <div class="row" style="margin-top: 150px;">
+                                <div class="col-sm-12 mb-2">
+                                    <span><span> &#10003;</span> Password must be minimum of 8 characters.</span>
+                                 </div> 
+                                 <div class="col-sm-12 mb-2">
+                                    <span>Must contain atleast one capital letter, one number, on symbol.</span>
+                                </div> 
+                                <div class="col-sm-12 mb-2">
+                                    <span>Password and Re-enter Password field should match.</span>
+                                </div>   
+                          
+                        </div> 
+                </div>
+            </div>
+          </div>
+          <script src="home.js"></script>
+    </body>
+</html>
